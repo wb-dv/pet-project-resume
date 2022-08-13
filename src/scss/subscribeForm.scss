@@ -1,0 +1,56 @@
+.subscribeForm {
+    background-color: $formsBackground;
+    width: 100%;
+    font-size: 23px;
+    line-height: 32px;
+
+    form {
+        display: flex;
+        align-items: center;
+        height: 176px;
+        justify-content: space-between;
+
+        label {
+            letter-spacing: 0.48px;
+        }
+    }
+
+}
+
+.email {
+    border-radius: 0;
+    border: 2px solid $black;
+    padding: 10px 19px;
+    width: 354px;
+    line-height: 32px;
+    background-color: $formsBackground;
+    margin-right: 24px;
+
+    &::placeholder {
+        color: $black;
+        letter-spacing: 0.48px;
+    }
+
+    transition: border-color .1s, background-color .1s;
+
+    &:focus {
+        border-color: $primary;
+        border-radius: 0;
+        outline:0;
+        background-color: $background;
+    }
+}
+
+.submit_btn {
+    border: none;
+    background-color: $black;
+    color: #fff;
+    padding: 12px 15px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    transition: background-color .1s;
+
+    &:hover {
+        background-color: $primary;
+    }
+}

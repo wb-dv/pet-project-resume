@@ -1,0 +1,110 @@
+.statistics_text {
+    width: 1060px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics_subtitle {
+    padding: 0 0 21px 0;
+    word-spacing: 5px;
+}
+
+.text_container {
+   width: 612px;
+
+    .paragraphs {
+
+        p {
+            max-width: 599px;
+            margin: 0;
+
+            &:first-child {
+                font-size: 31px;
+                line-height: 40px;
+                margin-bottom: 36px;
+                letter-spacing: 0.64px;
+            }
+
+            &:nth-child(2) {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+    }
+}
+
+.title_container {
+    .title {
+        width: 351px;
+        text-transform: none;
+    }
+}
+
+.birth_statistic {
+    padding-top: 27px;
+}
+
+.birth_statistic_list {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+    li {
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p{
+            font-size: 23px;
+            line-height: 32px;
+            margin: 0;
+            letter-spacing: 0.48px;
+        }
+
+        span {
+            color: $primary;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.statistics_cards {
+    width: 100%;
+    height: 156px;
+    border: 2px solid $black;
+    margin-top: 123px;
+
+    display: flex;
+
+    .statistics_card {
+        width: 33.33%;
+        
+        text-align: center;
+        font-size: 56px;
+        line-height: 64px;
+
+        display: flex;
+        align-items: center;
+
+        span {
+            margin: 0 auto;
+        }
+        
+        &:nth-child(2) {
+            background-color: $black;
+            color: #fff;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 32px;
+            letter-spacing: 1.28px;
+            text-transform: uppercase;
+            margin-top: 11px;
+        }
+    }
+}

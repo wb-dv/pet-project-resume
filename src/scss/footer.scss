@@ -1,0 +1,63 @@
+footer {
+    background-color: $black;
+    padding: 67px 0 26px 0;
+
+    color: #fff;
+}
+
+.other_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 16px;
+    margin-bottom: 48px;
+
+    ul {
+        display: flex;
+        text-align: center;
+        gap: 46px;
+
+        li{
+            a{
+                color: #fff;
+                transition: color .1s;
+
+                &:hover {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.whiteStar {
+    width: 32px;
+    height: 32px;
+    background-image: url(./img/footer/whiteStar.png);
+    background-repeat: no-repeat;
+}
+
+.copyrite_and_social_networks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_networks {
+    display: flex;
+    text-align: center;
+    gap: 16px;
+
+    a {
+        &:hover svg path {
+            transition: stroke .1s, fill .1s;
+            &:first-child {
+                stroke: $primary;
+            }
+
+            &:last-child {
+                fill: $primary;
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+@import "./scss/fonts.scss";
+@import "./scss/colors.scss";
+
+
+html {
+    font-family: 'Bai Jamjuree';
+    color: $black;
+    background-color: $background;
+    overflow-x: hidden;
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+        color: $black;
+    }
+
+    li, ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        margin: 0
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.section_header {
+    text-align: center;
+    letter-spacing: 1.44px;
+    
+    h3 {
+        font-size: 45px;
+        line-height: 56px;
+        margin: 22px 0 9px 0;
+    }
+
+    > p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+        
+@import "./scss/header.scss";
+@import "./scss/welcome.scss";
+@import "./scss/statistics.scss";
+@import "./scss/awards.scss";
+@import "./scss/portfolio.scss";
+@import "./scss/services.scss";
+@import "./scss/happyCustomer.scss";
+@import "./scss/articles.scss";
+@import "./scss/subscribeForm.scss";
+@import "./scss/footer.scss";

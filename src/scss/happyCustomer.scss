@@ -1,0 +1,24 @@
+.happyCustomer {
+    padding-top: 161px;
+}
+
+.happyCustomer_header {
+
+    h3 {
+        margin-bottom: 0;
+
+    }
+}
+
+.happyCustomer_cards {
+    padding-top: 62px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.happyCustomer_card {
+    border: 1px solid $black;
+    line-height: 96px;
+    text-align: center;
+}
